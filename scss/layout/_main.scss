@@ -1,0 +1,16 @@
+main{
+    background-color:  lightgray;
+    color:$variable;
+    @include medidas (100%, 200px, 1fr, 20px);
+}
+// h2{
+//     font-size: 20px;
+//     color: blue;
+// }
+// h3{
+//     @extend h2;
+//     font-size: larger;
+// }
+// p{
+//     @extend h3;
+// }

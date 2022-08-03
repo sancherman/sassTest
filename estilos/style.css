@@ -1,0 +1,33 @@
+header {
+  background-color: aliceblue;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  padding: 30px;
+  margin: 10px;
+}
+.navBar li {
+  list-style: none;
+}
+.navBar li a {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: red;
+}
+
+main {
+  background-color: lightgray;
+  color: aqua;
+  width: 100%;
+  height: 200px;
+  padding: 1fr;
+  margin: 20px;
+}
+
+footer {
+  color: aqua;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+$ancho: 800px;
+$color: blue;
+$color-2: green;
+
+.box{
+    background-color: $color;
+    width: $ancho*2;
+    .box_principal{
+        width: $ancho/2;
+    }
+}
