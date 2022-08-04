@@ -1,4 +1,29 @@
-footer{
-    color:$variable;
-    background-color: green;
+.imgFondoFooter{
+    height: 300px;
+}
+.padreFooter{
+    section{
+        h4{
+            color: #005f65;
+            font-size: large;
+            font-weight: bold;
+        }
+        h5{
+            color:#3f4549;
+            font-size: large;
+        }
+        a{
+            img{
+                transition: all 1s ease;
+                &:hover{
+                    transform: scale(1) translateX(5px) translateY(5px);
+                    background-color: #6c757d;
+                    border-radius: 50px;
+                }
+            }
+        } 
+    } 
+} 
+.madeBy{
+    color: $colorPrincipal;
 }

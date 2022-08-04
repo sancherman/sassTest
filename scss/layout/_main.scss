@@ -1,16 +1,84 @@
 main{
-    background-color:  lightgray;
-    color:$variable;
-    @include medidas (100%, 200px, 1fr, 20px);
+    div{
+        h4{
+            background-color: #cc2c20;
+        }
+    }
 }
-// h2{
-//     font-size: 20px;
-//     color: blue;
-// }
-// h3{
-//     @extend h2;
-//     font-size: larger;
-// }
-// p{
-//     @extend h3;
-// }
+.usarFlex{
+    display: flex;
+    justify-content: center;
+}
+.usarFlex2{
+    display: flex;
+    justify-content: space-around;
+}
+.contenidoIconos {
+
+    h2{
+        color: $colorPrincipal;
+    }    
+}
+.contenidoIconos{
+    p{
+        color: $colorHover;
+    }
+}
+.prodDesc{
+    background-color: $colorPrincipal;
+    border-radius: 50px;
+    &:hover{
+        background-color: $colorHover;
+    }
+}
+.tarjetaProd{
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1) translateY(-10px);
+    }
+}
+.fc-qs{
+    p{
+        color: $colorHover;
+    }
+    h2{
+        color: $colorSecundario;
+    }
+}
+.contacto{
+    h2{
+        color: $colorSecundario;
+    } 
+}
+.datosDContacto{
+    h2{
+        margin-bottom: 20px;
+    }
+    h5{
+        font-size: large;
+    }
+    div{
+        display: flex;
+        section{
+            margin: 10px 15px 0px 0px;
+            h3{
+                margin-top: 7px;
+            }
+            h4{
+                margin-top: 11px;
+            }
+        }
+    }
+} 
+.ddcIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        margin-top: 3px;
+    }
+}
+.btn{
+    background-color: $colorPrincipal;
+}
