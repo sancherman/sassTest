@@ -1,16 +1,16 @@
-main{
-    div{
-        h4{
-            background-color: #cc2c20;
-        }
-    }
+
+.h1-index{
+    @include formatoH1(xx-large,white,red);
+    border-radius: 20px;
+    background:rgba(255,0,0, 0.7)
 }
+.h1-secciones{
+    @include formatoH1(40px,$colorHover,"");
+}        
 .usarFlex{
-    display: flex;
     justify-content: center;
 }
 .usarFlex2{
-    display: flex;
     justify-content: space-around;
 }
 .contenidoIconos {
@@ -71,7 +71,6 @@ main{
     }
 } 
 .ddcIcon{
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

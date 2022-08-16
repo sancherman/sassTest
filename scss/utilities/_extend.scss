@@ -1,0 +1,9 @@
+.usarFlex{
+    display: flex;
+}
+.usarFlex2{
+    @extend .usarFlex;
+}
+.ddcIcon{
+    @extend .usarFlex;
+}

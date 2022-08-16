@@ -9,6 +9,10 @@ h2 {
   color: #3f4549;
 }
 
+.usarFlex, .ddcIcon, .usarFlex2 {
+  display: flex;
+}
+
 .logoMio {
   transition: all 1s;
 }
@@ -24,17 +28,25 @@ h2 {
   background-color: #9b9b9b;
 }
 
-main div h4 {
-  background-color: #cc2c20;
+.h1-index {
+  font-size: xx-large;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  background: rgba(255, 0, 0, 0.7);
 }
 
-.usarFlex {
-  display: flex;
+.h1-secciones {
+  font-size: 40px;
+  color: #9b9b9b;
+  background-color: "";
+}
+
+.usarFlex, .usarFlex2, .ddcIcon {
   justify-content: center;
 }
 
 .usarFlex2 {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -92,7 +104,6 @@ main div h4 {
 }
 
 .ddcIcon {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;

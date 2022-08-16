@@ -1,6 +1,5 @@
-@mixin medidas ($width, $height, $padding, $margin) {
-    width: $width;
-    height: $height;
-    padding: $padding;
-    margin: $margin;
+@mixin formatoH1 ($tamano, $colorFuente, $colorFondo) {
+    font-size: $tamano;
+    color: $colorFuente;
+    background-color: $colorFondo;
 }
